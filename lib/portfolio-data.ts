@@ -16,7 +16,7 @@ export const profile = {
   email: 'ciwambharaidahzakirama@gmail.com',
   linkedin:
     'https://www.linkedin.com/in/ciwambha-raidah-zaki-rama-54510228b/',
-  github: 'https://github.com/Resipunyak',
+  github: 'https://github.com/Ciwambha',
   status: 'Currently Process Engineering Intern @ Schlemmer',
   portrait: '/rama-portrait.png',
   // Replace with the real file at /public/cv/rama-zaki-rama-cv.pdf

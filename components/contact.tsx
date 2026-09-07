@@ -20,7 +20,7 @@ export function Contact() {
     {
       icon: GithubIcon,
       label: 'GitHub',
-      value: '@Resipunyak',
+      value: '@Ciwambha',
       href: profile.github,
     },
   ]
