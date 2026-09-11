@@ -259,10 +259,29 @@ export const academicProjects: AcademicProject[] = [
   {
     id: 'ac-4',
     index: '04',
-    title: 'Product Development Project',
+    title: 'PeelMate — Portable Fruit Peeler (PDD Group Project)',
     description:
-      'Applied product development methods from problem identification and concept development to prototype and presentation.',
-    tags: ['PDD', 'Prototype', 'Product Design'],
+      'Product Design & Development group project (Group 4): designed PeelMate, a portable, ergonomic fruit peeler with a rotating blade mechanism and a transparent safety cover. My contribution covered product testing, Design for Environment, Design for Manufacturing (DFM) & Design for Assembly (DfA), and assisting on the 3D CAD orthographic views (top, front, side, bottom) shown below.',
+    tags: ['Product Design', 'DFM/DfA', 'Autodesk Fusion', 'Prototype'],
+    image: '/projects/peelmate-pdd/02-front-view.png',
+    gallery: [
+      {
+        src: '/projects/peelmate-pdd/01-top-view.png',
+        caption: 'Top view — assembly drawing (FP-001)',
+      },
+      {
+        src: '/projects/peelmate-pdd/02-front-view.png',
+        caption: 'Front view — assembly drawing (FP-002)',
+      },
+      {
+        src: '/projects/peelmate-pdd/03-side-view.png',
+        caption: 'Side view — assembly drawing (FP-003)',
+      },
+      {
+        src: '/projects/peelmate-pdd/04-bottom-view.png',
+        caption: 'Bottom view — assembly drawing (FP-004)',
+      },
+    ],
   },
 ]
 
