@@ -91,6 +91,11 @@
   html {
     scroll-behavior: smooth;
   }
+  section[id] {
+    /* Offsets the anchor target so section headings aren't hidden
+       behind the fixed navbar when jumped to via nav/CTA links. */
+    scroll-margin-top: 6.5rem;
+  }
   ::selection {
     background: oklch(0.65 0.2 295 / 40%);
     color: var(--foreground);

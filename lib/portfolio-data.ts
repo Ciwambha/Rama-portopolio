@@ -125,6 +125,8 @@ export const featuredProject = {
     "A digitalized system designed to improve visibility and monitoring of NPD trial processes, including Pre Assembly, Assembly & Inspection.",
   workflow: [
     'Part Number',
+    'Pre Assembly',
+    'Assembly & Inspection',
     'Trial Data',
     'Database',
     'Monitoring',
@@ -199,6 +201,7 @@ export type AcademicProject = {
   description: string
   tags: string[]
   image?: string
+  gallery?: { src: string; caption: string }[]
 }
 
 export const academicProjects: AcademicProject[] = [
@@ -221,10 +224,37 @@ export const academicProjects: AcademicProject[] = [
   {
     id: 'ac-3',
     index: '03',
-    title: 'System Development / Inventory System',
+    title: 'Ciwambha Store — Inventory Management System',
     description:
-      'Designed a digital system concept to organize operational data, processes, and reporting through a structured workflow.',
-    tags: ['System Analysis', 'DFD', 'Dashboard', 'Digitalization'],
+      'Course project for Information System Analysis & Design: designed the ERD and system flow for an inventory management app, then built it with login, stock master data, stock-in/stock-out transaction logs, and an executive dashboard for real-time stock and restock-priority monitoring.',
+    tags: ['System Analysis', 'ERD', 'Dashboard', 'Inventory System'],
+    image: '/projects/ciwambha-store/05-dashboard.png',
+    gallery: [
+      {
+        src: '/projects/ciwambha-store/01-login.png',
+        caption: 'Login screen',
+      },
+      {
+        src: '/projects/ciwambha-store/02-erd.png',
+        caption: 'Entity Relationship Diagram (ERD)',
+      },
+      {
+        src: '/projects/ciwambha-store/05-dashboard.png',
+        caption: 'Executive dashboard — stock overview & restock priority',
+      },
+      {
+        src: '/projects/ciwambha-store/06-stock-barang.png',
+        caption: 'Stock master data',
+      },
+      {
+        src: '/projects/ciwambha-store/03-barang-masuk.png',
+        caption: 'Stock-in transaction log',
+      },
+      {
+        src: '/projects/ciwambha-store/04-barang-keluar.png',
+        caption: 'Stock-out transaction log',
+      },
+    ],
   },
   {
     id: 'ac-4',
